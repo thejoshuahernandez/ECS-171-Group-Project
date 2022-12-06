@@ -53,6 +53,10 @@ Finally, we predicted week 13 in the NFL! We did this by adding the previous fou
 
 Our results were exciting and it was fun to watch the games with our predictions. One thing that is lacking from our results is injury list, trade list, and home field advantage. Out of our four upsets, three of them came from home field teams. For a project that two students worked on when there are millions of people trying to predict these scores, I would say we did pretty well. I hope you enjoyed our project and maybe use it to spice up your future game watching. 
 
+## Contributions
+
+Josh did the coding work, and anything you see in the jupyter notebook. Justin did everything here in the readme.
+
 ## Update #1 (Built our Repo, preprocessing, and normalization)
 
 Our dataset, found on this github repo, has been cropped to only include the most important data. Some columns were deemed redundant and non-necessary to have for our network, and were thus cropped out. 
@@ -82,3 +86,4 @@ ALL UPDATES ARE INSIDE THE JUPYTER NOTEBOOK
 -I plan to look this up in more detail on the second run. I could possibly remove outliers from the data set and run it again, but I prefered to keep as is and provide this analysis with our first run instead of fabricating a second run.
 
 ## Update #2.1 (Cleaned up text and made things easier to read 11/27)
+
