@@ -2,15 +2,15 @@
 
 ## Introduction
 
-Joshua and I decided to do our project on NFL score predictions. This is exciting beacause we can process our data and predict games based off the prevous weeks' scores. Neither of us bet, but this analysis could be useful to make a few extra dollars by predicting good odds and if a game should be close and exciting. The better our predictions are, the more money made and better games watched by someone using them. 
+Joshua and I decided to do our project on NFL score predictions. This is exciting beacause we can process our data and predict games based off the prevous weeks' scores. Neither of us bet, but this analysis could be useful to make a few extra dollars by predicting good odds and if a game should be close and exciting. The better our predictions are, the more money made and better games watched by someone using them. This would be done by watching the difference between the model prediction, and the spread lines. 
 
-## Preprossesing
+## Preprocessing
 
 First we checked the inputed data. For this, the data was defined as each teams' statistics from previous games. We chose to use histograms to see distribution analysis which turned out pretty exciting and fun. Below is just one of our histograms using passing yards.
 
 ![passing yards histogram](https://user-images.githubusercontent.com/97709241/205541464-c6ad0457-968c-4538-987c-c57e6f634937.PNG)
 
-We then chose to standardize our data because we planned on using a nueral network later in our project using MinMaxScaler()
+We then chose to standardize our data because we planned on using a neural network later in our project using MinMaxScaler()
 
 ## Bulding our models
 
@@ -37,6 +37,8 @@ For the second model we used most of the same perameters execpt we changed
 which produced the model below
 
 ![Group project model 2](https://user-images.githubusercontent.com/97709241/205546418-ac8bd87f-0c15-40b0-a3ce-f69eee8cd8f5.PNG)
+
+Both of these images show the relationship between the predicted scoress and the actual scores. The model tended to condense the actual score, meaning it never wanted to predict too low, (below ten) or too high (somewhere above 50). This makes sense as scorelines like that are so rare.
 
 ## Results
 
