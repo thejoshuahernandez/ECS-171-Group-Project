@@ -6,7 +6,8 @@ Joshua and I decided to do our project on NFL score predictions. This is excitin
 
 ## Preprocessing
 
-First we checked the inputed data. For this, the data was defined as each teams' statistics from previous games. We chose to use histograms to see distribution analysis which turned out pretty exciting and fun. Below is just one of our histograms using passing yards.
+In preprocessing, Josh cleaned up a bunch of the data that we didn't need. Some columns, like weather, or type of grass, were deemed as non-necessary. We chose to focus on raw NFL statistics, leaving us with 16 columns that we could use.
+First we checked the inputed data. For this, the data was defined as each teams' statistics from previous games. We chose to use histograms to see distribution analysis of each statistic which turned out pretty exciting and fun. Below is just one of our histograms using passing yards.
 
 ![passing yards histogram](https://user-images.githubusercontent.com/97709241/205541464-c6ad0457-968c-4538-987c-c57e6f634937.PNG)
 
@@ -39,6 +40,8 @@ which produced the model below
 ![Group project model 2](https://user-images.githubusercontent.com/97709241/205546418-ac8bd87f-0c15-40b0-a3ce-f69eee8cd8f5.PNG)
 
 Both of these images show the relationship between the predicted scoress and the actual scores. The model tended to condense the actual score, meaning it never wanted to predict too low, (below ten) or too high (somewhere above 50). This makes sense as scorelines like that are so rare.
+
+We used the first model as the actual model, since our MSE's were lower. 
 
 ## Results
 
