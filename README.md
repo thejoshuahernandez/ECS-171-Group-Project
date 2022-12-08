@@ -8,9 +8,10 @@ To be honest, it just felt like something fun to do. We both enjoy watching foot
 ## Preprocessing
 
 In preprocessing, Josh cleaned up a bunch of the data that we didn't need. Some columns, like weather, or type of grass, were deemed as non-necessary. We chose to focus on raw NFL statistics, leaving us with 16 columns that we could use. We then duplicated the columns and populated the data with the opponents statistics for that game.
-We chose to use histograms to see distribution analysis of each statistic which turned out pretty exciting and fun. Below is just one of our histograms using passing yards.
+We chose to use histograms to see distribution analysis of each statistic which turned out pretty exciting and fun. Below is just one of our histograms using score.
 
-![passing yards histogram](https://user-images.githubusercontent.com/97709241/205541464-c6ad0457-968c-4538-987c-c57e6f634937.PNG)
+![image](https://user-images.githubusercontent.com/97709241/206362477-54fe2aaa-6ea6-4a2c-952d-74d004260290.png)
+
 
 We then chose to standardize our data because we planned on using a neural network later in our project using MinMaxScaler(). This standardization is important as we must use the same standardization with our inputted test/prediction data, which we will see later.
 
@@ -52,7 +53,7 @@ A shortcoming of this model is this use of the "average" to predict the score. S
 
 Finally, we used this generated data to predict week 13 in the NFL! We did this by adding the previous four weeks data into the analysis and predicted each teams' scores. Below are our results, and the model went 11-15 for 73.33%. If we bet on the spreads covering as predicted by our model, we would have made a 40% return on investment!
 
-![New Results excel](https://user-images.githubusercontent.com/97709241/206353114-7ecab675-2210-4dc5-a413-d6b875fc6bbe.PNG)
+![image](https://user-images.githubusercontent.com/97709241/206362195-72ab0881-ba68-4c9f-9d89-74c27fe19a4f.png)
 
 ![pie chart](https://user-images.githubusercontent.com/97709241/206355137-98f47b88-caa5-4c96-a930-15c1c91b4b17.PNG)
 
@@ -63,7 +64,7 @@ Finally, we used this generated data to predict week 13 in the NFL! We did this 
 
 We decided to do our project on NFL scores because it is of common interest to both of us. We went into this project not necessarily thinking we could accurately determine the scores, but are surprised with how accurate our project ended up being. Most of the games we predicted had the predicted outcome as far as who won and who lost. The exact score was more difficult to accurately determine, as we expected, but some of our predictions were surprisingly close. One thing that is lacking from our results is injury list and trade list. I believe if we somehow added weights on traded players and also excluded injurded players from the four weeks of statistics we could get even more accurate score predictions. Also, out of our four upsets, three of them came from home field teams. If we could somehow add which team was away and improve their predicteded score due to their home or away advantages and disadvantages, this would improve our accuracy. Lastly we mentioned beting above and we wanted to see what would happen if we bet on our model. We were shocked to see the ammount of money we would make from week thirteen so we went back another week to week 12 and our graph predicted 13/16 for result and went 11.5/16 on spreads! below is an excel of our findings.
 
-![money line](https://user-images.githubusercontent.com/97709241/206354671-20da00b8-d80a-4499-9aea-9bf1e7cd8a39.PNG)
+![image](https://user-images.githubusercontent.com/97709241/206362220-08c224a5-a758-45f6-b131-a59a0261f9fc.png)
 
 ## Conclusion
 
