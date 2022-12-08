@@ -24,7 +24,7 @@ Then it was time to build our two models, so we used our data to train and test 
 ```
 Then fit it using batch_size = 1, epochs = 100. Lastly we predicted our model then plotted our first model's results to get a better view of the scope of the predictions.
 
-![Group project model 1](https://user-images.githubusercontent.com/97709241/205544126-f3c09bba-3005-436c-80bc-065a5a6386eb.PNG)
+![Model 1 fixed](https://user-images.githubusercontent.com/97709241/206352506-0e62d7ae-cefd-45dc-a3ee-0a424a9a700c.PNG)
 
 For the second model we used most of the same parameters execpt we added a few more layers.
 
@@ -37,7 +37,7 @@ For the second model we used most of the same parameters execpt we added a few m
 
 which produced the model below
 
-![Group project model 2](https://user-images.githubusercontent.com/97709241/205546418-ac8bd87f-0c15-40b0-a3ce-f69eee8cd8f5.PNG)
+![Model 2 fixed](https://user-images.githubusercontent.com/97709241/206352624-07c8c7d9-c1ed-42f9-b065-437be1973ef6.PNG)
 
 Both of these images show the relationship between the predicted scoress and the actual scores. The model tended to condense the actual score, meaning it never wanted to predict too low, (below ten) or too high (somewhere above 50). This makes sense as scorelines like that are so rare.
 
@@ -50,15 +50,20 @@ A shortcoming of this model is this use of the "average" to predict the score. S
 
 ## Results
 
-Finally, we used this generated data to predict week 13 in the NFL! We did this by adding the previous four weeks data into the analysis and predicted each teams' scores. Below are our results, and the model went 9-15 for 60%.
+Finally, we used this generated data to predict week 13 in the NFL! We did this by adding the previous four weeks data into the analysis and predicted each teams' scores. Below are our results, and the model went 11-15 for 73.33%.
 
-![Final win loss excel](https://user-images.githubusercontent.com/97709241/206325016-3dc876d5-bbc3-47f9-9c4b-585638f15542.PNG)
+![New Results excel](https://user-images.githubusercontent.com/97709241/206353114-7ecab675-2210-4dc5-a413-d6b875fc6bbe.PNG)
+
+![pie chart](https://user-images.githubusercontent.com/97709241/206355137-98f47b88-caa5-4c96-a930-15c1c91b4b17.PNG)
+
 
 
 
 ## Discussion
 
-We decided to do our project on NFL scores because it is of common interest to both of us. We went into this project not necessarily thinking we could accurately determine the scores, but are surprised with how accurate our project ended up being. Most of the games we predicted had the predicted outcome as far as who won and who lost. The exact score was more difficult to accurately determine, as we expected, but some of our predictions were surprisingly close. One thing that is lacking from our results is injury list and trade list. I believe if we somehow added weights on traded players and also excluded injurded players from the four weeks of statistics we could get even more accurate score predictions. Also, out of our six upsets, four of them came from home field teams. If we could somehow add which team was away and improve their predicteded score due to their home or away advantages and disadvantages, this would improve our accuracy.
+We decided to do our project on NFL scores because it is of common interest to both of us. We went into this project not necessarily thinking we could accurately determine the scores, but are surprised with how accurate our project ended up being. Most of the games we predicted had the predicted outcome as far as who won and who lost. The exact score was more difficult to accurately determine, as we expected, but some of our predictions were surprisingly close. One thing that is lacking from our results is injury list and trade list. I believe if we somehow added weights on traded players and also excluded injurded players from the four weeks of statistics we could get even more accurate score predictions. Also, out of our four upsets, three of them came from home field teams. If we could somehow add which team was away and improve their predicteded score due to their home or away advantages and disadvantages, this would improve our accuracy. Lastly we mentioned beting above and we wanted to see what would happen if we bet on our graph. We were shocked to see the ammount of money we would make from week thirteen so we went back another week and our graph predicted 13/16! below is an excel of our findings
+
+![money line](https://user-images.githubusercontent.com/97709241/206354671-20da00b8-d80a-4499-9aea-9bf1e7cd8a39.PNG)
 
 ## Conclusion
 
