@@ -1,4 +1,4 @@
-# ECS 171 Group Project - Joshua Hernandez, Justin Wallasch
+# NFL Scoreline Predictions (39% Average ROI???) - Joshua Hernandez, Justin Wallasch
 
 ## Introduction
 
@@ -50,7 +50,7 @@ A shortcoming of this model is this use of the "average" to predict the score. S
 
 ## Results
 
-Finally, we used this generated data to predict week 13 in the NFL! We did this by adding the previous four weeks data into the analysis and predicted each teams' scores. Below are our results, and the model went 11-15 for 73.33%.
+Finally, we used this generated data to predict week 13 in the NFL! We did this by adding the previous four weeks data into the analysis and predicted each teams' scores. Below are our results, and the model went 11-15 for 73.33%. If we bet on the spreads covering as predicted by our model, we would have made a 40% return on investment!
 
 ![New Results excel](https://user-images.githubusercontent.com/97709241/206353114-7ecab675-2210-4dc5-a413-d6b875fc6bbe.PNG)
 
@@ -61,7 +61,7 @@ Finally, we used this generated data to predict week 13 in the NFL! We did this 
 
 ## Discussion
 
-We decided to do our project on NFL scores because it is of common interest to both of us. We went into this project not necessarily thinking we could accurately determine the scores, but are surprised with how accurate our project ended up being. Most of the games we predicted had the predicted outcome as far as who won and who lost. The exact score was more difficult to accurately determine, as we expected, but some of our predictions were surprisingly close. One thing that is lacking from our results is injury list and trade list. I believe if we somehow added weights on traded players and also excluded injurded players from the four weeks of statistics we could get even more accurate score predictions. Also, out of our four upsets, three of them came from home field teams. If we could somehow add which team was away and improve their predicteded score due to their home or away advantages and disadvantages, this would improve our accuracy. Lastly we mentioned beting above and we wanted to see what would happen if we bet on our graph. We were shocked to see the ammount of money we would make from week thirteen so we went back another week and our graph predicted 13/16! below is an excel of our findings
+We decided to do our project on NFL scores because it is of common interest to both of us. We went into this project not necessarily thinking we could accurately determine the scores, but are surprised with how accurate our project ended up being. Most of the games we predicted had the predicted outcome as far as who won and who lost. The exact score was more difficult to accurately determine, as we expected, but some of our predictions were surprisingly close. One thing that is lacking from our results is injury list and trade list. I believe if we somehow added weights on traded players and also excluded injurded players from the four weeks of statistics we could get even more accurate score predictions. Also, out of our four upsets, three of them came from home field teams. If we could somehow add which team was away and improve their predicteded score due to their home or away advantages and disadvantages, this would improve our accuracy. Lastly we mentioned beting above and we wanted to see what would happen if we bet on our model. We were shocked to see the ammount of money we would make from week thirteen so we went back another week to week 12 and our graph predicted 13/16 for result and went 11.5/16 on spreads! below is an excel of our findings.
 
 ![money line](https://user-images.githubusercontent.com/97709241/206354671-20da00b8-d80a-4499-9aea-9bf1e7cd8a39.PNG)
 
