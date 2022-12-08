@@ -40,7 +40,7 @@ which produced the model below
 
 ![Model 2 fixed](https://user-images.githubusercontent.com/97709241/206352624-07c8c7d9-c1ed-42f9-b065-437be1973ef6.PNG)
 
-Both of these images show the relationship between the predicted scoress and the actual scores. The model tended to condense the actual score, meaning it never wanted to predict too low, (below ten) or too high (somewhere above 50). This makes sense as scorelines like that are so rare.
+Both of these images show the relationship between the predicted scoress and the actual scores. They, in theory, should be completely linear. It almost is, with small variance!
 
 Again, we used the first model as the actual model, since our MSE's were lower. 
 
