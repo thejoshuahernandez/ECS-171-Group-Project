@@ -15,7 +15,7 @@ We chose to use histograms to see distribution analysis of each statistic which 
 We then chose to standardize our data because we planned on using a neural network later in our project using MinMaxScaler(). This standardization is important as we must use the same standardization with our inputted test/prediction data, which we will see later.
 
 
-## Bulding our models
+## Bulding our models (Methods)
 
 Then it was time to build our two models, so we used our data to train and test for our first model. Our models were both variations on a Keras NN, we used a Sequential model for both. The better of the two models were the first, as it had a lower train and test MSE.
 ```
@@ -50,13 +50,19 @@ A shortcoming of this model is this use of the "average" to predict the score. S
 
 ## Results
 
-Finally, we used this generated data to predict week 13 in the NFL! We did this by adding the previous four weeks data into the analysis and predicted each teams' scores. Below are our results, and the model went 10-15 for 66%.
+Finally, we used this generated data to predict week 13 in the NFL! We did this by adding the previous four weeks data into the analysis and predicted each teams' scores. Below are our results, and the model went 9-15 for 60%.
 
-![Win loss excel](https://user-images.githubusercontent.com/97709241/205548175-26666e82-3d43-4509-a1dd-dd978e041719.PNG)
+![Final win loss excel](https://user-images.githubusercontent.com/97709241/206325016-3dc876d5-bbc3-47f9-9c4b-585638f15542.PNG)
 
-## Finish
 
-Our results were exciting and it was fun to watch the games with our predictions. One thing that is lacking from our results is injury list, trade list, and home field advantage. Out of our four upsets, three of them came from home field teams. For a project that two students worked on when there are millions of people trying to predict these scores, I would say we did pretty well. I hope you enjoyed our project and maybe use it to spice up your future game watching. 
+
+## Discussion
+
+We decided to do our project on NFL scores because it is of common interest to both of us. We went into this project not necessarily thinking we could accurately determine the scores, but are surprised with how accurate our project ended up being. Most of the games we predicted had the predicted outcome as far as who won and who lost. The exact score was more difficult to accurately determine, as we expected, but some of our predictions were surprisingly close. One thing that is lacking from our results is injury list and trade list. I believe if we somehow added weights on traded players and also excluded injurded players from the four weeks of statistics we could get even more accurate score predictions. Also, out of our six upsets, four of them came from home field teams. If we could somehow add which team was away and improve their predicteded score due to their home or away advantages and disadvantages, this would improve our accuracy.
+
+## Conclusion
+
+Our results were exciting and it was fun to watch the games with our predictions. For a project that two students worked on when there are millions of people trying to predict these scores, I would say we did pretty well. I hope you enjoyed our project and maybe use it to spice up your future game watching. I would like to work on this repo in the future and see if I could add something for home field advantage. This made sports watching really fun. I am also a huge hockey fan so it would also be fun to do a similar project with hockey. I believe the tricky part would be the goalies because they can be switched and each goalie usally have completely different stats than their back ups.
 
 ## Contributions
 
@@ -91,4 +97,6 @@ ALL UPDATES ARE INSIDE THE JUPYTER NOTEBOOK
 -I plan to look this up in more detail on the second run. I could possibly remove outliers from the data set and run it again, but I prefered to keep as is and provide this analysis with our first run instead of fabricating a second run.
 
 ## Update #2.1 (Cleaned up text and made things easier to read 11/27)
+
+## Update #3.0 (Completed the write and made our summary easy to follow and read without going into the coding)
 
